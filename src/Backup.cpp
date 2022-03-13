@@ -20,7 +20,7 @@ void setup() {
     pinMode(throttleMotorDistanceInput, INPUT);
     pinMode(throttleOut, OUTPUT);
     pinMode(reverseOut, OUTPUT);
-    Serial.begin(115200);
+    Serial.begin(57600);
 }
 
 void loop() {
@@ -44,7 +44,7 @@ void loop() {
     }
 
     if (throttle > 1380 && throttle < 1580) {
-        moveToInitialPosition(motorDistance);
+        //moveToInitialPosition(motorDistance);
     }
 }
 
