@@ -1,7 +1,19 @@
 # Pin Belegung
 
-## H-Brücke Gas
+## H-Brücke Gas Eingang
+| H-Brücke | Arduino | Versorgung |
+|----------|---------|------------|
+| 1        | ~11     |            |
+| 2        | ~3      |            |
+| 3        |         | 5V         |
+| 4        |         | 5V         |
+| 5        |         ||
+| 6        |         ||
+| 7        |         | 5V         |
+| 8        |         | GND        |
 
+
+## H-Brücke Lenkung Eingang
 | H-Brücke | Arduino | Versorgung |
 |----------|---------|------------|
 | 1        | ~10     |            |
@@ -13,12 +25,6 @@
 | 7        |         | 5V         |
 | 8        |         | GND        |
 
-| H-Brücke Output<br/>Links -> Rechts | Arduino   |
-|-------------------------------------|-----------|
-| 1                                   | Motor +   |
-| 2                                   | Motor Gnd |
-| 3                                   | 12V       |
-| 4                                   | Gnd       |
 
 ## Arduino
 
@@ -27,16 +33,16 @@
 | 0       |                                |            
 | 1       |                                |            
 | 2       |                                |            
-| ~3      | Fernsteuerung Empfänger Signal |            
+| ~3      | Output an H-Brücke Gas Vorwärts|            
 | 4       |                                |            
-| ~5      | RPWM H-Brücke 2                |
-| ~6      | LPWM H-Brücke 2                |
+| ~5      | RC Inpt Lenkung                |
+| ~6      | RC Input Gas                   |
 | 7       |                                |            
 | 8       |                                |            
-| ~9      | LPWM H-Brücke 1                |            
-| ~10     | RPWM H-Brücke 1                |            
-| ~11     |                                |            
+| ~9      | Output an H-Brücke Lenkung(2)  |            
+| ~10     | Output an H-Brücke Lenkung(1)  |            
+| ~11     | Output an H-Brücke Gas Rückwärts|            
 | 12      |                                |            
 | 13      |                                |            
-| A0      | Poti Gas Motor                 |            
-| A1      | Poti Lenkmotor                 |            
+| A1      | Poti Gas Motor                 |            
+| A2      | Poti Lenkmotor                 |            
