@@ -3,14 +3,14 @@
 bool autoCorrectSteering = false;
 bool autoCorrectThrottle = false;
 
-char steeringMotorSensorInput = A1;
-char throttleMotorSensorInput = A2;
+char steeringMotorSensorInput = A2;
+char throttleMotorSensorInput = A1;
 int throttleInput = 6;
 int steeringInput = 5;
-int steeringLeftOutput = 9;
-int steeringRightOutput = 10;
-int reverseOutput = 3;
-int accelerationOutput = 11;
+int steeringLeftOutput = 10;
+int steeringRightOutput = 9;
+int reverseOutput = 11;
+int accelerationOutput = 3;
 
 // Constants for motor endpoints
 const int THROTTLE_LOWER_ENDPOINT = 300;
