@@ -13,14 +13,16 @@ int reverseOutput = 11;
 int accelerationOutput = 3;
 
 // Constants for motor endpoints
-const int THROTTLE_LOWER_ENDPOINT = 300;
-const int THROTTLE_UPPER_ENDPOINT = 1000;
+// max speed at 300
+const int THROTTLE_LOWER_ENDPOINT = 450;
+// max speed at 1000
+const int THROTTLE_UPPER_ENDPOINT = 760;
 
 const int STEERING_LOWER_ENDPOINT = 550;
 const int STEERING_UPPER_ENDPOINT = 940;
 
 // Constants for remote control inputs THROTTLE
-const int REMOTE_INPUT_BACKWARD = 1380;
+const int REMOTE_INPUT_BACKWARD = 1420;
 const int REMOTE_INPUT_FORWARD = 1580;
 const int MIN_REMOTE_INPUT_THROTTLE = 950;
 const int MAX_REMOTE_INPUT_THROTTLE = 1900;
@@ -34,12 +36,14 @@ const int MIN_REMOTE_INPUT_STEERING_LEFT = 1500;
 const int MAX_REMOTE_INPUT_STEERING_LEFT = 900;
 
 // Constants for the range for steering motor reset
-const int STEERING_DEADLOCK_MIN = 790;
-const int STEERING_DEADLOCK_MAX = 800;
+const int STEERING_DEADLOCK_MIN = 710;
+const int STEERING_DEADLOCK_MAX = 700;
 
 // Constants for the range for throttle motor reset
+//const int THROTTLE_DEADLOCK_MIN = 580;
+//const int THROTTLE_DEADLOCK_MAX = 620;
 const int THROTTLE_DEADLOCK_MIN = 580;
-const int THROTTLE_DEADLOCK_MAX = 600;
+const int THROTTLE_DEADLOCK_MAX = 620;
 
 void setup() {
     // put your setup code here, to run once:
