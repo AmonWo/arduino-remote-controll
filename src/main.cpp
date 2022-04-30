@@ -19,7 +19,7 @@ const int THROTTLE_LOWER_ENDPOINT = 450;
 const int THROTTLE_UPPER_ENDPOINT = 760;
 
 const int STEERING_LOWER_ENDPOINT = 550;
-const int STEERING_UPPER_ENDPOINT = 940;
+const int STEERING_UPPER_ENDPOINT = 890;
 
 // Constants for remote control inputs THROTTLE
 const int REMOTE_INPUT_BACKWARD = 1420;
@@ -36,8 +36,8 @@ const int MIN_REMOTE_INPUT_STEERING_LEFT = 1500;
 const int MAX_REMOTE_INPUT_STEERING_LEFT = 900;
 
 // Constants for the range for steering motor reset
-const int STEERING_DEADLOCK_MIN = 710;
-const int STEERING_DEADLOCK_MAX = 700;
+const int STEERING_DEADLOCK_MIN = 700;
+const int STEERING_DEADLOCK_MAX = 710;
 
 // Constants for the range for throttle motor reset
 //const int THROTTLE_DEADLOCK_MIN = 580;
@@ -180,4 +180,3 @@ void loop() {
         resetThrottle(throttleMotorSensor);
     }
 }
-
