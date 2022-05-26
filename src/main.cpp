@@ -16,7 +16,7 @@ int accelerationOutput = 3;
 // max speed at 300
 const int THROTTLE_LOWER_ENDPOINT = 450;
 // max speed at 1000
-const int THROTTLE_UPPER_ENDPOINT = 760;
+const int THROTTLE_UPPER_ENDPOINT = 810;
 
 const int STEERING_LOWER_ENDPOINT = 550;
 const int STEERING_UPPER_ENDPOINT = 890;
