@@ -38,9 +38,9 @@ const int MAX_REMOTE_INPUT_STEERING_LEFT = 900;
 
 // Constants for the range for steering motor reset
 // 700
-const int STEERING_DEADLOCK_MIN = 740;
+const int STEERING_DEADLOCK_MIN = 752;
 // 710
-const int STEERING_DEADLOCK_MAX = 750;
+const int STEERING_DEADLOCK_MAX = 762;
 
 // Constants for the range for throttle motor reset
 //const int THROTTLE_DEADLOCK_MIN = 580;
