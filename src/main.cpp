@@ -18,8 +18,9 @@ const int THROTTLE_LOWER_ENDPOINT = 450;
 // max speed at 1000
 const int THROTTLE_UPPER_ENDPOINT = 810;
 
-const int STEERING_LOWER_ENDPOINT = 550;
-const int STEERING_UPPER_ENDPOINT = 890;
+//TODO: Links zu weit, rechts nicht weit genug
+const int STEERING_LOWER_ENDPOINT = 590;
+const int STEERING_UPPER_ENDPOINT = 910;
 
 // Constants for remote control inputs THROTTLE
 const int REMOTE_INPUT_BACKWARD = 1420;
@@ -36,8 +37,10 @@ const int MIN_REMOTE_INPUT_STEERING_LEFT = 1500;
 const int MAX_REMOTE_INPUT_STEERING_LEFT = 900;
 
 // Constants for the range for steering motor reset
-const int STEERING_DEADLOCK_MIN = 700;
-const int STEERING_DEADLOCK_MAX = 710;
+// 700
+const int STEERING_DEADLOCK_MIN = 740;
+// 710
+const int STEERING_DEADLOCK_MAX = 750;
 
 // Constants for the range for throttle motor reset
 //const int THROTTLE_DEADLOCK_MIN = 580;
